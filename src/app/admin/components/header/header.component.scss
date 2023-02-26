@@ -1,0 +1,35 @@
+.header-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 0.8rem;
+  background-color: #000;
+}
+.navigation-div ul li{
+  display: inline-block;
+  a{
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  a:hover{
+    color: orange;
+  }
+}
+.brand-div a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+li a.user-name{
+  background-color: #fff;
+  color: black !important;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+}
+li a.user-name:hover{
+  background-color: orange;
+  color: #fff !important;
+  transition: all 0.6s ease;
+}

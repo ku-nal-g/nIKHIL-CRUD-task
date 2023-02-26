@@ -1,0 +1,15 @@
+<div class="header-div">
+  <div class="brand-div p-3">
+    <a class="ps-2" routerLink="/">School Management Portal</a>
+  </div>
+  <div class="navigation-div">
+    <ul>
+      <li><a class="me-4" routerLink="/">Home</a></li>
+      <li><a class="me-4" routerLink="admission">Admission</a></li>
+      <li><a class="me-4" routerLink="administration">Administration</a></li>
+      <li class="mt-2"><a (click)="logoutUser()" class="me-4 user-name" href="#">
+          {{this.userName}} | Logout
+        </a></li>
+    </ul>
+  </div>
+</div>

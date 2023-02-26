@@ -1,0 +1,96 @@
+{
+  "Users": [
+    {
+      "id": "1",
+      "email": "kunal@gmail.com",
+      "name": "Kunal Gupta",
+      "password": "Kunal@123"
+    },
+    {
+      "id": "2",
+      "email": "mehul@gmail.com",
+      "name": "Mehul Panchal",
+      "password": "Mehul@123"
+    },
+    {
+      "id": "3",
+      "email": "nikhil@gmail.com",
+      "name": "Nikhil Vats",
+      "password": "Nikhil@123"
+    }
+  ],
+  "StudentsList": [
+    {
+      "firstname": "Sonu",
+      "lastname": "Gupta",
+      "age": 22,
+      "gender": "Male",
+      "email": "kunal@gmail.com",
+      "phone": 9876543210,
+      "city": "Siwan",
+      "state": "Bihar",
+      "country": "India",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "firstname": "Mohd",
+      "lastname": "Umar",
+      "age": 23,
+      "gender": "Male",
+      "email": "umar@gmail.com",
+      "phone": 35384538458,
+      "city": "Noida",
+      "state": "U.P",
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "firstname": "Aniket",
+      "lastname": "Kumar",
+      "age": 23,
+      "gender": "Male",
+      "email": "aniket@gmail.com",
+      "phone": 7273432564,
+      "city": "Patna",
+      "state": "Bihar",
+      "country": "India"
+    },
+    {
+      "id": 4,
+      "firstname": "John",
+      "lastname": "Doe",
+      "age": 20,
+      "gender": "Female",
+      "email": "john@gmail.com",
+      "phone": 358365353536,
+      "city": "Mexico",
+      "state": "Costa Rica",
+      "country": "Brazil"
+    },
+    {
+      "id": 5,
+      "firstname": "Mehul",
+      "lastname": "Panchal",
+      "age": 25,
+      "gender": "Male",
+      "email": "mehul@gmail.com",
+      "phone": 34535345353,
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    {
+      "id": 6,
+      "firstname": "Nikhil",
+      "lastname": "Vats",
+      "age": 24,
+      "gender": "Male",
+      "email": "nikhil@gmail.com",
+      "phone": 9876543210,
+      "city": "Guragaon",
+      "state": "Haryana",
+      "country": "India"
+    }
+  ]
+}

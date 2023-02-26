@@ -1,0 +1,48 @@
+.table-div {
+  overflow: auto;
+
+  table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table th,
+  td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  table tr:hover {
+    cursor: pointer;
+  }
+}
+
+.loader-text p {
+  color: #fff;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+.form-div{
+  display: flex;
+  justify-content: center;
+}
+.form-div .container-fluid{
+  border: 1px solid #ddd;
+  width: 40vw;
+  border-radius: 0.4rem;
+}
+input {
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.radio-div{
+  display: flex;
+  padding-top: 1.5rem;
+  align-items: center;
+}
