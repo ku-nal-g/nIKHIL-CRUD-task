@@ -18,6 +18,7 @@ export class AdmissionComponent implements OnInit {
   updateUserIndex!: number;
 
   addStudentFormGroup!: FormGroup;
+p: string|number|undefined;
 
   constructor(private _userData: UsersDataService, private _globalservice: GlobalService, private _fb: FormBuilder) {
     this.createAddStudentFormGroup();

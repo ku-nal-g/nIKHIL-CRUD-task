@@ -4,6 +4,7 @@ import { GlobalService } from 'src/app/common/services/global.service';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 import { AdminRoutingModule } from './admin-routing.module';
 import { HomeComponent } from './components/home/home.component';
@@ -28,7 +29,8 @@ import { AdministrationComponent } from './components/administration/administrat
     RouterModule,
     NgxSpinnerModule.forRoot({ type: 'ball-scale-multiple' }),
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxPaginationModule
   ]
 })
 export class AdminModule { }

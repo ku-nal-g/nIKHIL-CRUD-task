@@ -20,7 +20,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let data of this.studentsList">
+          <tr *ngFor="let data of this.studentsList | paginate: { itemsPerPage: 5, currentPage: p }">
             <td>{{data.id}}</td>
             <td>{{data.firstname | titlecase}}</td>
             <td>{{data.lastname | titlecase}}</td>
@@ -57,7 +57,11 @@
             </td>
           </tr>
         </tbody>
+        <div class="pagination-div mt-3 me-4">
+          <pagination-controls (pageChange)="p = $event"></pagination-controls>
+        </div>
       </table>
+
     </div>
   </div>
 
@@ -221,7 +225,8 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-        <button type="button" (click)="updateStudentInfo()" class="btn btn-outline-success" data-bs-dismiss="modal">Update</button>
+        <button type="button" (click)="updateStudentInfo()" class="btn btn-outline-success"
+          data-bs-dismiss="modal">Update</button>
       </div>
     </div>
   </div>
